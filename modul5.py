@@ -16,9 +16,18 @@ if text.isdigit():
 else:
     print("you did not write a number")
 """
-
+"""
 longText = input("Input a long text:")
 
-number = input("How many charecters do you want to write out:")
+number = int(input("How many charecters do you want to write out:"))
 
-print(f"")
+print(longText[:number])
+"""
+"""
+text = input("Write a text:")
+
+if len(text) >= 10:
+    print(text[:10] + "...")
+else:
+    print(text[:10])
+"""
